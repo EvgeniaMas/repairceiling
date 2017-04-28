@@ -1,0 +1,247 @@
+.global-wrap {
+    width: 980px;
+    margin: auto;
+    font-family: trebuchet ms;
+}
+.global-wrap p {
+	margin: 0;
+}
+h2.calc-title {
+    color:#545454;
+    font-size:34px;
+    line-height:1;
+    margin:0 0 10px;
+    text-shadow:#FFC5C5 0 3px 3px;
+    text-align:center;
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+h3.calc-title {
+    color:#545454;
+    font-size:34px;
+    line-height:1;
+    margin:0 0 10px;
+    text-shadow:#FFC5C5 0 3px 3px;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:50px;
+}
+.calc-title {
+    color:#545454;
+    font-size:34px;
+    line-height:1;
+    margin:0 0 10px;
+    text-shadow:#FFC5C5 0 3px 3px;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom: 11px;
+    display:block;
+}
+span.montspan {
+    color:#545454;
+    font-size:20px;
+    line-height:1;
+    margin:0 0 10px;  
+    text-align:center;
+    display:block;
+    margin:30px 0 30px;
+}
+.vuzov-spec {
+    display:block;
+    margin-bottom:40px;
+    text-align:center;
+    color:#545454;
+    font-size:26px;
+    line-height:1;
+    margin:0 0 10px;
+}
+.montaj-body {
+    padding:20px;
+    border: 3px dashed #545454;
+    margin-bottom:40px;
+}
+p.potolok-type-title {
+    font-weight: 300;
+    font-size: 15px;
+    color: #757575;
+    font-family: trebuchet ms;
+}
+label.potolok-type-label {
+    float: left;
+    width: 130px;
+    height: 130px;
+    border: 10px solid grey;
+    /*overflow: hidden;*/
+    position: relative;
+    margin: 6px;
+    margin-top: 40px;
+}
+label.potolok-type-label:hover {
+	border: 10px solid #AFCDE7;
+
+}
+input:checked+label.potolok-type-label {
+	border: 10px solid #c83699;
+}
+input.potolok-type-radio {
+    position: absolute;
+    opacity: 0;
+}
+label.potolok-type-label img {
+    width: 100%;
+}
+.potolok-type-radio-title {
+    position: absolute;
+    top: -30px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    font-family: trebuchet ms;
+    font-size: 13px;
+}
+.calc-bottom {
+    width: 100%;
+    clear: both;
+    margin-top: 30px;
+    float: left;
+    margin-bottom:20px;
+}
+.calc-bottom-left {
+    float: left;
+    width: 250px;
+}
+.calc-bottom-center {
+    float: left;
+    width: 400px;
+}
+.calc-bottom-right {
+    float: right;
+    width: 300px;
+}
+p.calc-bottom-left-square-title, 
+p.calc-price-title,
+p.calc-price-aftertext,
+p.calc-bottom-center-angles-title, 
+p.calc-bottom-center-pipes-title, 
+p.calc-bottom-center-light-title, 
+p.calc-bottom-center-light-levels, 
+p.calc-bottom-right-install-title, 
+p.calc-bottom-right-total-title,
+p.get-calback-aftertext {
+    font-weight: 300;
+    font-size: 15px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+input[type="number"], .select-levels { 
+  -moz-appearance: textfield;
+  background: none repeat scroll 0 0 #e6e6e6;
+  border: 0 none;
+  box-sizing: border-box;
+  color: #000;
+  display: block;
+  font: 500 24px/30px "trebuchet ms";
+  padding: 9px 20px 13px;
+  border-radius: 3px;
+  float: left;
+  width: 95px;
+}
+.select-levels {
+  width: 180px;
+  font-size: 18px;
+	padding:9px;
+	margin: 7px 0;
+}
+input[type="number"]::-webkit-inner-spin-button { 
+  display: none;
+}
+.calc-bottom-left-square {
+    position: relative;
+}
+.calc-bottom-left-square-metric {
+  font: 500 24px/30px "trebuchet ms";
+  color: #757575;
+  position: absolute;
+  top: 34px;
+  left: 62px;
+}
+.calc-price {
+    float: left;
+    width: 200px;
+    clear: both;
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 20px;
+    background: #ccc;
+    box-sizing: border-box;
+}
+p.calc-price-aftertext {
+	color:black;
+}
+p.calc-price-price,
+.calc-bottom-right-install-price,
+.calc-bottom-right-total-price {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+p.calc-bottom-center-title {
+    font-size: 24px;
+    color: #545454;
+}
+.calc-bottom-center-angles,
+.calc-bottom-center-pipes,
+.calc-bottom-center-light,
+.calc-bottom-center-levels {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+}
+p.calc-bottom-right-install-title,
+p.calc-bottom-right-install-price,
+p.calc-bottom-right-total-title,
+p.calc-bottom-right-total-price {
+    margin-left: 60px;
+    position: relative;
+}
+p.calc-bottom-right-install-title:before {
+	position: absolute;
+	content:url('./img/discount_icon1.png');
+    left: -60px;
+}
+.calc-bottom-right-total-title:before {
+	position: absolute;
+	content:url('./img/credit_icon1.png');
+    left: -60px;
+}
+.calc-bottom-right-total {
+    margin-top: 20px;
+}
+p.get-callback {
+    background: #AFCDE7;
+    display: inline-block;
+    margin: 30px 70px;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    cursor:pointer;
+}
+p.get-calback-aftertext {
+    text-align: center;
+}
+.counterplus,
+.counterminus {
+    width: 30px;
+    height: 26px;
+    font-size: 25px;
+    line-height: 26px;
+    background: grey;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+.counterminus {
+    clear: both;
+}
+.change-buttons {
+    float: left;
+}
